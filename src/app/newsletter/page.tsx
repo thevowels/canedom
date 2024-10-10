@@ -13,7 +13,7 @@ export default function Newsletter() {
                     Our newsletter is filled with insightful articles, updates on our programs, and stories from our community.
                 </p>
                 <a
-                    href="/path-to-your-newsletter.pdf" // Update with your actual PDF file path
+                    href="/Canedom-Newsletter-2024-1.pdf" // Update with your actual PDF file path
                     className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition"
                     download
                 >
