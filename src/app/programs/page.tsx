@@ -11,35 +11,47 @@ export default function Programs() {
             {/* Program 1: Essential Skills for the Blind */}
             <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-2">1. Essential Skills for the Blind</h2>
-                <div className="flex">
-                    <div className="flex-none w-36 h-36 mr-4">
-                        <FaChalkboardTeacher className="text-orange-500 h-full w-full object-cover" /> {/* Set to 150px */}
+                <div className="md:flex space-x-5">
+                    <div className="flex-none w-36 h-36 mx-auto">
+                        <FaChalkboardTeacher className="text-orange-500 h-full w-full" /> {/* Set to 150px */}
                     </div>
                     <div className="flex-grow">
                         <p>
                             This program focuses on enhancing the crucial skills of orientation and mobility, as well as daily living skills, for individuals with visual impairment. In the realm of orientation and mobility skill development, participants will engage in practical training, including techniques for holding and using a white cane, gaining orientation to their surroundings, navigating by finding paths and landmarks, and harnessing other senses for improved mobility.
                             Furthermore, the program emphasizes the ability to navigate alongside sighted individuals, providing practical experience in real-world scenarios.
                         </p>
-                        <p className="mt-2">
-                            For daily living skills, the program addresses key aspects such as dressing smartly, maintaining eye contact, and performing daily chores like cooking and cleaning. Additionally, participants will learn the importance of effective communication through facial expressions and gestures.
-                        </p>
-                        <p className="mt-2">
-                            Within the orientation and mobility training, a distinctive feature involves the implementation of individualized field trip programs, enriching the learning experience through practical applications in various environments. This approach aims to empower participants with both the skills and confidence needed to navigate their surroundings and engage in daily activities independently.
-                        </p>
                     </div>
+                </div>
+                <div className=" ml-5">
+                    <p className="mt-2">
+                        For daily living skills, the program addresses key aspects such as dressing smartly, maintaining
+                        eye contact, and performing daily chores like cooking and cleaning. Additionally, participants
+                        will learn the importance of effective communication through facial expressions and gestures.
+                    </p>
+                    <p className="mt-2">
+                        Within the orientation and mobility training, a distinctive feature involves the implementation
+                        of individualized field trip programs, enriching the learning experience through practical
+                        applications in various environments. This approach aims to empower participants with both the
+                        skills and confidence needed to navigate their surroundings and engage in daily activities
+                        independently.
+                    </p>
+
                 </div>
             </section>
 
             {/* Program 2: Computer, Information and Technology */}
             <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-2">2. Computer, Information and Technology</h2>
-                <div className="flex">
-                    <div className="flex-none w-36 h-36 mr-4">
-                        <FaLaptop className="text-orange-500 h-full w-full object-cover" /> {/* Set to 150px */}
+                <div className="md:flex space-x-5">
+                    <div className="flex-none w-36 h-36 mx-auto">
+                        <FaLaptop className="text-orange-500 h-full w-full object-cover"/> {/* Set to 150px */}
                     </div>
                     <div className="flex-grow">
                         <p>
-                            The aim of this program is to empower individuals with visual impairments to acquire essential computer and IT skills. Participants will learn to use speech synthesizers and free software, master shortcut keys and keyboard functions, navigate Microsoft Office applications (Word, Excel, PowerPoint, and email clients), explore the internet and employ various search engines, as well as leverage AI for research.
+                            The aim of this program is to empower individuals with visual impairments to acquire
+                            essential computer and IT skills. Participants will learn to use speech synthesizers and
+                            free software, master shortcut keys and keyboard functions, navigate Microsoft Office
+                            applications (Word, Excel, PowerPoint, and email clients), explore the internet and employ various search engines, as well as leverage AI for research.
                             Additionally, the program provides guidance on utilizing social media for both personal and professional purposes. These skills are instrumental for participants in enhancing their learning experience and accessing job opportunities.
                         </p>
                     </div>
@@ -49,8 +61,8 @@ export default function Programs() {
             {/* Program 3: Essential Employable Skills */}
             <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-2">3. Essential Employable Skills</h2>
-                <div className="flex">
-                    <div className="flex-none w-36 h-36 mr-4">
+                <div className="md:flex space-x-5">
+                    <div className="flex-none w-36 h-36 mx-auto">
                         <FaHandshake className="text-orange-500 h-full w-full object-cover" /> {/* Set to 150px */}
                     </div>
                     <div className="flex-grow">
@@ -65,8 +77,8 @@ export default function Programs() {
             {/* Program 4: Soft Skills and Exposure Learning */}
             <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-2">4. Soft Skills and Exposure Learning</h2>
-                <div className="flex">
-                    <div className="flex-none w-36 h-36 mr-4">
+                <div className="md:flex space-x-5">
+                    <div className="flex-none w-36 h-36 mx-auto">
                         <FaUsersCog className="text-orange-500 h-full w-full object-cover" /> {/* Set to 150px */}
                     </div>
                     <div className="flex-grow">
