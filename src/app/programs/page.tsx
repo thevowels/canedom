@@ -1,4 +1,5 @@
-import { FaChalkboardTeacher, FaLaptop, FaHandshake, FaUsersCog } from "react-icons/fa"; // Importing icons
+import { FaChalkboardTeacher, FaLaptop, FaHandshake, FaUsersCog } from "react-icons/fa";
+import PhotoSlider from "@/components/PhotoSlider"; // Importing icons
 
 export default function Programs() {
     return (
@@ -11,8 +12,8 @@ export default function Programs() {
             {/* Program 1: Essential Skills for the Blind */}
             <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-2">1. Essential Skills for the Blind</h2>
-                <div className="md:flex space-x-5">
-                    <div className="flex-none w-36 h-36 mx-auto">
+                <div className="md:flex space-x-5 md:ml-5">
+                    <div className="flex-none w-44 h-44 mx-auto">
                         <FaChalkboardTeacher className="text-orange-500 h-full w-full" /> {/* Set to 150px */}
                     </div>
                     <div className="flex-grow">
@@ -21,6 +22,16 @@ export default function Programs() {
                             Furthermore, the program emphasizes the ability to navigate alongside sighted individuals, providing practical experience in real-world scenarios.
                         </p>
                     </div>
+                </div>
+                <div>
+                    <PhotoSlider  images ={ [
+                        'mobility.jpg',
+                        'mobility1.jpg',
+                        'mobility2.jpg',
+                        'mobility3.jpg'
+
+                    ]
+                    }/>
                 </div>
                 <div className=" ml-5">
                     <p className="mt-2">
@@ -42,8 +53,8 @@ export default function Programs() {
             {/* Program 2: Computer, Information and Technology */}
             <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-2">2. Computer, Information and Technology</h2>
-                <div className="md:flex space-x-5">
-                    <div className="flex-none w-36 h-36 mx-auto">
+                <div className="md:flex space-x-5 ml-5">
+                    <div className="flex-none w-44 h-44 mx-auto">
                         <FaLaptop className="text-orange-500 h-full w-full object-cover"/> {/* Set to 150px */}
                     </div>
                     <div className="flex-grow">
@@ -61,8 +72,8 @@ export default function Programs() {
             {/* Program 3: Essential Employable Skills */}
             <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-2">3. Essential Employable Skills</h2>
-                <div className="md:flex space-x-5">
-                    <div className="flex-none w-36 h-36 mx-auto">
+                <div className="md:flex space-x-5 ml-5">
+                    <div className="flex-none w-44 h-44 mx-auto">
                         <FaHandshake className="text-orange-500 h-full w-full object-cover" /> {/* Set to 150px */}
                     </div>
                     <div className="flex-grow">
@@ -77,8 +88,8 @@ export default function Programs() {
             {/* Program 4: Soft Skills and Exposure Learning */}
             <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-2">4. Soft Skills and Exposure Learning</h2>
-                <div className="md:flex space-x-5">
-                    <div className="flex-none w-36 h-36 mx-auto">
+                <div className="md:flex space-x-5 ml-5">
+                    <div className="flex-none w-44 h-44 mx-auto">
                         <FaUsersCog className="text-orange-500 h-full w-full object-cover" /> {/* Set to 150px */}
                     </div>
                     <div className="flex-grow">

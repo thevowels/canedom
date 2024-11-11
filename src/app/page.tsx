@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaEye, FaBullhorn } from "react-icons/fa"; // Importing icons
+import { FaEye, FaBullhorn } from "react-icons/fa";
+import PhotoSlider from "@/components/PhotoSlider"; // Importing icons
 
 export default function Home() {
   return (
@@ -37,11 +38,24 @@ export default function Home() {
         </section>
 
         {/* Call to Action Section */}
-        <section className="text-center mt-8">
-          <Link href="/donate" className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition duration-300">
-            Support Our Mission
-          </Link>
-        </section>
+
+          <section className={"text-center mt-8"}>
+              <PhotoSlider  images ={ [
+                  'activity.jpg',
+                  'football.jpg',
+                  'mobility.jpg',
+                  'football1.jpg',
+                  'activity1.jpg',
+                  'mobility1.jpg'
+              ]
+              }/>
+          </section>
+
+        {/*<section className="text-center mt-8">*/}
+        {/*  <Link href="/donate" className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition duration-300">*/}
+        {/*    Support Our Mission*/}
+        {/*  </Link>*/}
+        {/*</section>*/}
       </div>
   );
 }
