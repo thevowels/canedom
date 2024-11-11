@@ -47,7 +47,7 @@ export default function RootLayout({
           <div className="container mx-auto flex justify-between items-center">
               <div>Copyright ©2024 Canedom</div>
               <div>
-                  <a href="https://facebook.com/canedom" target="_blank" rel="noopener noreferrer"
+                  <a href="https://www.facebook.com/profile.php?id=61555456581920" target="_blank" rel="noopener noreferrer"
                      className="text-orange-500 hover:text-white">
                       <FaFacebook size={24}/>
                   </a>
